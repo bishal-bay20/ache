@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    border-bottom: 2px solid red;
+    padding: 30px;
+    min-height: 70%;
+    height: 80px;
+    padding-top: 5px;
+    
+   
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+}
+
+header a {
+    color: #ffffff;
+    margin: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+header img {
+    width: 150px;
+    height: 100px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #warp {
+    float: left;
+}
+
+header #warp img {
+    margin: 0px;
+
+}
+
+header nav {
+    float: right;
+}
+header .current a{
+    color: red;
+    font-weight: bold;
+    
+}
+header a:hover{
+    color: white;
+    width: 30px;
+}
+#show{
+    justify-content:;
+    min-height: 400px;
+    background-image:url("../img/restaurant2.jpg") ;
+    margin-top: 10px;
+}
+#show h1{
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 10px;
+margin: 0px;   
+}
+#show p{
+    color: yellow;
+    font-size:30px ;
+    text-align: center;
+}
+#newsletter{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 10px;
+}
+#newsletter label(button){
+    background-color: red;
+}
+
+#newsletter h1{
+    float: left;
+}
+#newsleter form{
+    float: right;
+ margin-left: 500px;
+}
+#boxs .box{
+    float: flex;
+    text-align: center;
+    padding: 10px;
+}
+#boxs .box img{
+    width: 150px;
+}
+#boxs .box p{
+    font-size: 20px;
+}
+#newsletter button .buttom{
+    background-color: red;
+    color: white;
+    border: none;
+}
+/*About*/
+/*sidebar*/
+ #sidebar{
+    float: right;
+    width: 30;
+    margin-right: 0px;
+}
+#main{
+    min-height: 500px;
+    background-image: url("../img/about.jpg");
+    background-position: -300px;
+}
+#sidebar .dark{
+    border: 1px solid white;
+    color: yellow;
+    background-color: #35424a;
+   padding-left: 10px;
+    margin-right: 10px;
+   }
+   #sidebar .dark h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+   }
+   #main .container #main-col{
+    border: 1px solid white;
+    color: yellow;
+    background-color: #35424a;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+   }
+ .image-list img{
+    width: 150px;
+    height: 150px;
+ }
+ #cook .image-list{
+    float: flex;
+    text-align: center;
+    padding: 10px;
+ }
+ /* services*/
+ #main-services{
+    min-height: 500px;
+    background-image: url("../img/restaurant3.jpg");
+    background-position: -300px;
+ }
+  .page-title{
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+  } 
+#services li{
+    
+    border: 1px solid white;
+    background-color: #35424a;
+    color:yellow;
+    width: 700px;
+    margin-top: 4px;
+}
+#text-box{
+    border: 1px solid white;
+    background-color: #35424a;
+    padding: 10px;
+    margin: 0 50px 0 40px;
+}
+#item h1{
+    text-align: center;
+}
+.image-item img{
+width: 200px;
+}
+footer{
+    background-color: pink;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+
+}
+.fix-me{
+    position: fixed;
+    top: 200px;
+    background-color: #35424a;
+    color: white;
+    text-decoration: none;
+    }
+    .fix-me:hover{
+        color: red;
+    }
+    .bishal {
+        text-align: center;
+        
+    }
